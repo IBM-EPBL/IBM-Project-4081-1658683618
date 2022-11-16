@@ -1,4 +1,4 @@
-***Fertilizers Recommendation System For Disease Prediction***
+                                         ***Fertilizers Recommendation System For Disease Prediction***
 
 <h1 align=center style='margin-bottom:20.0pt;text-align:center;line-height:
 285%;page-break-after:auto;background:white;border:none;padding:0in'><a
@@ -10,7 +10,7 @@ line-height:285%; style = "color:#7F00FF"'>Fertilizers Recommendation System For
 name="_7mvjkk6hnlfr"></a><b><i><span lang=EN style='font-size:40.0pt;
 line-height:285%; style = "color:#7F00FF"'>NALAYATHIRAN IBM PROJECT BASED LEARNING </span></i></b></h1>
 
-***NALAYATHIRAN_PLANT_PROJECT***
+                                                    ***NALAYATHIRAN_PLANT_PROJECT***
 
 
 
