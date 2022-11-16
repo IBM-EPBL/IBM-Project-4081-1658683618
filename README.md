@@ -1,6 +1,19 @@
 ***Fertilizers Recommendation System For Disease Prediction***
 
-***NALAYATHIRAN_PLANT***
+<h1 align=center style='margin-bottom:20.0pt;text-align:center;line-height:
+285%;page-break-after:auto;background:white;border:none;padding:0in'><a
+name="_7mvjkk6hnlfr"></a><b><i><span lang=EN style='font-size:40.0pt;
+line-height:285%; style = "color:#7F00FF"'>Fertilizers Recommendation System For Disease Prediction </span></i></b></h1>
+
+<h1 align=center style='margin-bottom:20.0pt;text-align:center;line-height:
+285%;page-break-after:auto;background:white;border:none;padding:0in'><a
+name="_7mvjkk6hnlfr"></a><b><i><span lang=EN style='font-size:40.0pt;
+line-height:285%; style = "color:#7F00FF"'>NALAYATHIRAN IBM PROJECT BASED LEARNING </span></i></b></h1>
+
+***NALAYATHIRAN_PLANT_PROJECT***
+
+
+
 
 <html>
 
@@ -125,8 +138,8 @@ margin-left:-13.5pt;text-align:justify'><b><i><span lang=EN style='font-size:
 
 <p class=MsoNormal style='text-align:center'><b><i><span lang=EN
 style='font-size:18.0pt;line-height:115%;color:#24292F'><img width=99%
-height=99% id=image002.png
-src="Fertilizers%20Recommendation%20System%20For%20Disease%20Prediction_files/image002.png"></span></i></b></p>
+height=99% id=AI,ML,DL.png
+src="IMAGES SAMPLES/AI,ML,DL.png"></span></i></b></p>
 
 <div style='border:none;border-bottom:none windowtext 1.0pt;padding:0in 0in 5.0pt 0in;
 margin-left:-15.0pt;margin-right:0in'>
