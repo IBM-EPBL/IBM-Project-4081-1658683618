@@ -26,8 +26,8 @@ Prediction </span></i></b></h2>
 </div>
 
 <p class=MsoNormal style='text-align:center'><i><span lang=EN><img width=99%
-height=99% id=image001.png
-src="Fertilizers%20Recommendation%20System%20For%20Disease%20Prediction_files/image001.png"></span></i></p>
+height=99% id=FERTILIZER REC.png
+src="IMAGES SAMPLES/FERTILIZER REC.png"></span></i></p>
 
 <h4 align=center style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;
 margin-left:-15.0pt;text-align:center;line-height:normal;page-break-after:auto;
