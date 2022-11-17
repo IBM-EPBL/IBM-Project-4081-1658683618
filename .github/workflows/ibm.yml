@@ -15,9 +15,9 @@ on:
 # Environment variables available to all jobs and steps in this workflow
 env:
   GITHUB_SHA: ${{ github.sha }}
-  IBM_CLOUD_API_KEY: ${{ secrets.IBM_CLOUD_API_KEY }}
+  IBM_CLOUD_API_KEY: ApiKey-e085882a-6318-4c5b-82f9-9098bb83bc12
   IBM_CLOUD_REGION: us-south
-  ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
+  ICR_NAMESPACE: FERTILIZER_RECOMMENDATION
   REGISTRY_HOSTNAME: us.icr.io
   IMAGE_NAME: iks-test
   IKS_CLUSTER: example-iks-cluster-name-or-id
