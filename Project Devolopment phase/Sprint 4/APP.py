@@ -254,8 +254,7 @@ def disease_prediction():
 
             prediction = Markup(str(disease_dic[prediction]))
             return render_template('disease-result.html', prediction=prediction, title=title)
-        except:
-            pass
+
     return render_template('disease.html', title=title)
 
 
