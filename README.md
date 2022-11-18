@@ -46,7 +46,7 @@ src="IMAGES SAMPLES/FERTILIZER REC.png"></span></i></p>
 margin-left:-15.0pt;text-align:center;line-height:normal;page-break-after:auto;
 background:white'><a name="_cny1bojllanc"></a><b><i><span lang=EN
 style='color:blue'>A Revolutionary Project for Agricultural Growth Made with
-IBM and PYTHON, IBM WATSON,OPENCY,PANDAS,KERAS</span></i></b></h4>
+IBM and PYTHON, IBM WATSON,OPENCV,PANDAS,KERAS</span></i></b></h4>
 
 <div style='border:none;border-bottom:none windowtext 1.0pt;padding:0in 0in 5.0pt 0in;
 background:white;margin-left:-15.0pt;margin-right:0in'>
