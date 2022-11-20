@@ -1,4 +1,4 @@
-# Importing essential libraries and modules
+
 
 from flask import Flask, render_template, request, Markup
 import numpy as np
@@ -126,32 +126,32 @@ def predict_image(img, model=disease_model):
 # ------------------------------------ FLASK APP -------------------------------------------------
 
 
-app = Flask(__name__)
+app = Flask(FERTILIZER)
 
-# render home page
+
 
 
 @ app.route('/')
 def home():
-    title = 'Harvestify - Home'
-    return render_template('index.html', title=title)
+    title = 'FERTILIZER RECOMMENDATION SYSTEM'
+    return render_template('HOME.html', title=title)
 
 # render crop recommendation form page
 
 
 @ app.route('/crop-recommend')
 def crop_recommend():
-    title = 'Harvestify - Crop Recommendation'
-    return render_template('crop.html', title=title)
+    title = 'CROP SCAN'
+    return render_template('SCAN.html', title=title)
 
 # render fertilizer recommendation form page
 
 
 @ app.route('/fertilizer')
 def fertilizer_recommendation():
-    title = 'Harvestify - Fertilizer Suggestion'
+    title = 'Fertilizer Suggestion'
 
-    return render_template('fertilizer.html', title=title)
+    return render_template('SCAN.html', title=title)
 
 # render disease prediction input page
 
@@ -167,7 +167,7 @@ def fertilizer_recommendation():
 
 @ app.route('/crop-predict', methods=['POST'])
 def crop_prediction():
-    title = 'Harvestify - Crop Recommendation'
+    title = 'Crop Recommendation'
 
     if request.method == 'POST':
         N = int(request.form['nitrogen'])
@@ -196,7 +196,7 @@ def crop_prediction():
 
 @ app.route('/fertilizer-predict', methods=['POST'])
 def fert_recommend():
-    title = 'Harvestify - Fertilizer Suggestion'
+    title = 'Fertilizer Recommendation'
 
     crop_name = str(request.form['cropname'])
     N = int(request.form['nitrogen'])
@@ -240,14 +240,14 @@ def fert_recommend():
 
 @app.route('/disease-predict', methods=['GET', 'POST'])
 def disease_prediction():
-    title = 'Harvestify - Disease Detection'
+    title = 'Disease Detection'
 
     if request.method == 'POST':
         if 'file' not in request.files:
             return redirect(request.url)
         file = request.files.get('file')
         if not file:
-            return render_template('disease.html', title=title)
+            return render_template('SCAN.html', title=title)
         try:
             img = file.read()
 
@@ -255,9 +255,8 @@ def disease_prediction():
 
             prediction = Markup(str(disease_dic[prediction]))
             return render_template('disease-result.html', prediction=prediction, title=title)
-        except:
-            pass
-    return render_template('disease.html', title=title)
+
+    return render_template('SCAN.html', title=title)
 
 
 # ===============================================================================================
